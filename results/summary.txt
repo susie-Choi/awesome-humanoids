@@ -1,0 +1,24 @@
+=== Problem 2: Noise & Filter 비교 ===
+  MSE(orig, noisy)          = 1969.7209
+  PSNR(orig, noisy)         = 15.1868 dB
+  MSE(orig, noisy+gauss)    = 182.2109
+  PSNR(orig, noisy+gauss)   = 25.5251 dB
+  MSE(orig, noisy+med3)     = 36.6436
+  PSNR(orig, noisy+med3)    = 32.4908 dB
+  MSE(orig, noisy+med5)     = 61.8984
+  PSNR(orig, noisy+med5)    = 30.2140 dB
+  MSE(orig, noisy+med7)     = 89.6178
+  PSNR(orig, noisy+med7)    = 28.6069 dB
+
+=== Problem 3: Pyramid ===
+  Gaussian level 0: (512, 512, 3)
+  Gaussian level 1: (256, 256, 3)
+  Gaussian level 2: (128, 128, 3)
+  Gaussian level 3: (64, 64, 3)
+  Gaussian level 4: (32, 32, 3)
+  Restored MSE  = 0.00014623
+  Restored PSNR = 86.4804 dB
+
+=== Problem 4: my_median vs cv2.medianBlur ===
+  MSE  = 0.00000000
+  PSNR = inf dB
